@@ -25,7 +25,6 @@ registerForm.addEventListener("submit", (e) => {
     return;
   }
 
-  // Save User in LocalStorage
   const user = { username, email, password };
   localStorage.setItem("user", JSON.stringify(user));
 
